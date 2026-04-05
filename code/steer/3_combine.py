@@ -62,11 +62,11 @@ def combine_temperature_selections(
 
 def main():
     parser = argparse.ArgumentParser(description="Combine selected/* across temps 0.3,0.6,0.8,1")
-    parser.add_argument("--dataset", type=str, required=True, help="e.g. mgsm_revised")
-    parser.add_argument("--model_base", type=str, required=True, help="e.g. distill1.5b, distill7b, qwen4b, qwen8b")
-    parser.add_argument("--temps", type=str, default="0.3,0.6,0.8,1", help="Comma-separated temps (default: 0.3,0.6,0.8,1)")
+    parser.add_argument("--data_type", type=str, required=True, help="e.g. mgsm_revised")
+    parser.add_argument("--model_name", type=str, required=True, help="e.g. distill1.5b, distill7b, qwen4b, qwen8b")
+    parser.add_argument("--temperatures", type=str, default="0.3,0.6,0.8,1", help="Comma-separated temps (default: 0.3,0.6,0.8,1)")
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--out", type=str, default="selected_combined", help="Output subdir")
+    parser.add_argument("--output_path", type=str, default="selected_combined", help="Output subdir")
     parser.add_argument("--stats", action="store_true", help="Run bootstrap significance after combining")
     args = parser.parse_args()
     temps = [float(x.strip()) for x in args.temps.split(",")]

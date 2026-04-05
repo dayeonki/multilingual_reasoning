@@ -155,8 +155,8 @@ def run_bootstrap_analysis(
 
 def main():
     parser = argparse.ArgumentParser(description="Bootstrap 95% CI and significance vs random")
-    parser.add_argument("--dataset", type=str, required=True)
-    parser.add_argument("--model_base", type=str, required=True)
+    parser.add_argument("--data_type", type=str, required=True)
+    parser.add_argument("--model_name", type=str, required=True)
     parser.add_argument("--sel_dir", type=str, default="selected_combined", help="selected or selected_combined")
     parser.add_argument("--n_boot", type=int, default=1000)
     parser.add_argument("--seed", type=int, default=42)

@@ -837,9 +837,9 @@ def run_eval_on_selections():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model", type=str, default="distill_1.5b", help="Model name (e.g. distill_1.5b)")
-    parser.add_argument("--temp", type=float, default="1", help="Temperature name")
-    parser.add_argument("--dataset", type=str, default="aime", help="Dataset name (e.g. aime, mgsm_revised)")
+    parser.add_argument("--model_name", type=str, default="distill_1.5b", help="Model name (e.g. distill_1.5b)")
+    parser.add_argument("--temperature", type=float, default="1", help="Temperature name")
+    parser.add_argument("--data_type", type=str, default="aime", help="Dataset name (e.g. aime, mgsm_revised)")
     args = parser.parse_args()
 
     MODEL_NAME = args.model
