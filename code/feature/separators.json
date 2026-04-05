@@ -1,0 +1,152 @@
+{
+    "agnostic": ["\n\n"],
+    "numbering": ["1.", "2.", "3.", "4.", "5.", "1)", "2)", "3)", "4)", "5)", "1 .", "2 .", "3 .", "4 .", "5 ."],
+    "bn": {
+        "distill": [
+            "wait", "but", "alternatively", "therefore", "then", "maybe", "similarly", "hmm", 
+            "now", "since", "thus", "if", "first", "compute", "let's", "however", "সুতরাং", "তাহলে",
+            "because", "after", "okay", "alright", "no", "second", "also", "প্রথমে", "next", "এখন"
+        ],
+        "qwen": [
+            "but", "therefore", "wait", "then", "alternatively", "however", "if", "now",
+            "first", "let's", "since", "maybe", "similarly", "yes", "okay", "no", "hmm", "because",
+            "hence", "also", "compute", "suppose", "second", "final", "earlier", "next", "starting", "thus"
+        ]
+    },
+    "de": {
+        "distill": [
+            "wait", "but", "therefore", "alternatively", "also", "similarly", "then", "compute",
+            "thus", "zuerst", "since", "hmm", "now", "maybe", "if", "first", "dann", "let's",
+            "schließlich", "becausse", "somit", "anschließend", "daher", "second", "vielleicht", "aber", "als", "that's"
+        ],
+        "qwen": [
+            "but", "therefore", "wait", "then", "alternatively", "however", "if", "now",
+            "first", "since", "similarly", "let's", "maybe", "okay", "hmm", "because", "also", "suppose",
+            "second", "hence", "another", "earlier", "adding", "yep", "yeah", "next", "how", "final"
+        ]
+    },
+    "en": {
+        "distill": [
+            "wait", "but", "therefore", "alternatively", "then", "hmm", "similarly", "if",
+            "first", "now", "since", "thus", "maybe", "okay", "final", "let's",
+            "because", "yes", "next", "starting", "yep", "alright", "no", "yeah", "adding", "second", "also"
+        ],
+        "qwen": [
+            "therefore", "but", "wait", "alternatively", "then", "however", "if", "first",
+            "similarly", "since", "maybe", "now", "yes", "okay", "let's", "no", "hmm",
+            "because", "final", "suppose", "also", "yep", "another", "well", "second", "earlier"
+        ]
+    },
+    "es": {
+        "distill": [
+            "wait", "but", "alternatively", "therefore", "similarly", "finalmente", "then", "thus",
+            "primero", "hmm", "since", "now", "maybe", "leugo", "if", "first", "simplify", "entonces",
+            "no", "ahora", "por", "let's", "because", "finally", "yes", "después", "pero", "also"
+        ],
+        "qwen": [
+            "but", "therefore", "wait", "then", "alternatively", "however", "if", "first",
+            "now", "similarly", "since", "maybe", "let's", "okay", "yes", "hmm", "correct", "next", "final",
+            "no", "because", "also", "suppose", "simplify", "hence", "adding", "yeah", "yep", "second", "earlier"
+        ]
+    },
+    "fr": {
+        "distill": [
+            "wait", "but", "therefore", "alternatively", "similarly", "then", "thus", "ensuite",
+            "donc", "hmm", "since", "maybe", "now", "if", "first", "enfin", "simplify", "let's",
+            "ainsi", "no", "okay", "also", "next", "second", "final", "calculons", "however"
+        ],
+        "qwen": [
+            "but", "therefore", "wait", "then", "alternatively", "however", "if", "now",
+            "first", "since", "similarly", "let's", "maybe", "okay", "yes", "hmm", "no",
+            "because", "or", "also", "hence", "second", "adding", "earlier", "yep", "simplify", "next", "yeah"
+        ]
+    },
+    "ja": {
+        "distill": [
+            "不过", "所以", "或者", "现在", "まず", "因此", "wait", "首先", "但是", "然后", "这可能意味着", "这显然不对", "右边", "因为",
+            "或许", "接下来", "次に", "but", "展开", "解得", "therefore", "例如", "したがって", "另一种方法是", "thus", "也许",
+            "那么", "同时", "这可能涉及到", "然而", "alternatively", "即", "similarly", "同样地", "比如", "since", "另一个想法是"
+        ],
+        "qwen": [
+            "but", "therefore", "wait", "then", "alternatively", "however", "if", "first", "now", "since",
+            "similarly", "let's", "maybe", "okay", "yes", "hmm", "because", "no", "also", "final", "thus", "starting",
+            "suppose", "hence", "second", "that's", "earlier", "another", "next", "adding", "yeah", "yep", "after", "well"
+        ]
+    },
+    "ko": {
+        "distill": [
+            "wait", "but", "therefore", "alternatively", "similarly", "then", "thus", "now",
+            "first", "hmm", "since", "maybe", "이는", "simplify", "if", "let's", "따라서", "마지막으로",
+            "because", "먼저", "next", "yes", "second", "also", "okay", "finally", "however", "alright", "다음"
+        ],
+        "qwen": [
+            "but", "wait", "therefore", "then", "alternatively", "however", "if", "now",
+            "first", "let's", "since", "similarly", "maybe", "okay", "yes", "hmm", "no", "because",
+            "correct", "also", "suppose", "hence", "second", "yeah", "simplify", "another", "final"
+        ]
+    },
+    "ru": {
+        "distill": [
+            "but", "wait", "Но", "Теперь", "Значит", "alternatively", "thus", "last", "Тогда", "Далее",
+            "Таким", "therefore", "Может", "Возможно", "Неправильное", "similarly", "Однако", "then", "Например",
+            "Попробую", "Сначала", "Поскольку", "Нет", "Если", "Точка", "Давайте", "Пусть", "Итак", "Затем", "Также",
+            "maybe", "Первым", "hmm", "not", "Следовательно", "now", "since"
+        ],
+        "qwen": [
+            "Но", "Тогда", "but", "Возможно", "therefore", "wait", "Например", "Таким", "now", "first", "let's",
+            "Если", "Значит", "Теперь", "then", "Давайте", "Нет", "Да", "alternatively", "if", "Может", "Сначала", "Подставим",
+            "Нужно", "Или", "however", "Хорошо", "Поскольку", "Проверим", "Однако", "Поэтому", "Также", "Пусть", "Итак",
+            "Допустим", "similarly", "Первым", "since", "Аналогично", "Затем", "maybe", "Потому", "okay", "hmm", "Вычислим", "yes"
+        ]
+    },
+    "sw": {
+        "distill": [
+            "wait", "but", "alternatively", "therefore", "then", "maybe", "similarly", "hmm",
+            "thus", "since", "now", "first", "if", "simplify", "let's", "hivyo", "Tafadhali",
+            "yes", "okay", "because", "kuna", "also", "second", "next", "however", "final", "alright"
+        ],
+        "qwen": [
+            "but", "wait", "therefore", "alternatively", "then", "if", "maybe", "however", "first", "ikiwa", "starting",
+            "let's", "now", "since", "similarly", "okay", "hmm", "because", "hence", "also", "perhaps", "assuming",
+            "second", "simplify", "translating", "adding", "breaking", "after", "earlier", "final", "third", "thus", "yep"
+        ]
+    },
+    "te": {
+        "distill": [
+            "wait", "but", "alternatively", "therefore", "then", "maybe", "hmm", "similarly", "if",
+            "now", "thus", "since", "first", "let's", "అయితే", "simplify", "కాబట్టి", "దయచేసి", "ఇది", "కానీ",
+            "yes", "no", "because", "okay", "甲", "అతడు", "alright", "మొత్తం", "also", "however", "మొదట", "తరువాత"
+        ],
+        "qwen": [
+            "but", "wait", "therefore", "alternatively", "then", "however", "if", "maybe",
+            "first", "now", "let's", "since", "similarly", "okay", "yes", "no", "hmm", "hence",
+            "because", "also", "suppose", "second", "adding", "yep", "simplify", "after", "earlier", "next", "starting"
+        ]
+    },
+    "th": {
+        "distill": [
+            "wait", "but", "ได้", "ให้", "ตัวอย่", "不过", "therefore", "ฉันจะใ", "alternatively", "ดังนั้น", "let's", "另一种方法是",
+            "ฉันอาจ", "similarly", "ไว้คร", "คุณต้องการ", "คุณต้อ", "所以", "因此", "接下来", "then", "now", "since", "ฉันอาจคิดว่า", "比如", "同样地",
+            "现在", "然后", "maybe", "thus", "if", "first", "หากคุณ", "hmm", "另一种可能是", "综上所述", "首先", "但是", "คุณต้องการให้", "because"
+        ],
+        "qwen": [
+            "but", "wait", "therefore", "alternatively", "then", "if", "however", "first", "maybe",
+            "now", "let's", "since", "similarly", "okay", "hmm", "yes", "no", "hence", "also", "suppose",
+            "next", "adding", "yep", "second", "another", "that's", "yeah", "alright", "earlier", "after", "well", "final", "starting"
+        ]
+    },
+    "zh": {
+        "distill": [
+            "不过", "或者", "所以", "首先", "接下来", "现在", "因此", "嗯", "或许", "然后", "那么", "哦", "因为", "另一种方法可", "于是", "不对",
+            "另一种可能性", "比如", "拿", "但是", "另一种思路是", "即", "这可能涉及到", "考虑到问题中", "计算", "计算一下", "这可能是一个", "同时",
+            "最后", "同样地", "另一种方法是", "比如列表是", "好", "这可能可以表", "那我是不是应", "这样", "综上所述", "另一种思路", "考虑到时间和",
+            "那这样的话", "看来", "接着", "这显然不对", "考虑到点", "这可能意味着", "是的", "另外", "另一种可能是", "同样"
+        ],
+        "qwen": [
+            "不过", "或者", "比如", "因此", "所以", "首先", "嗯", "或者可能题目", "例如", "接下来", "现在", "是的", "wait", "alternatively", "不过让我再检", "let's",
+            "不过可能需要", "这个时候", "或者有没有可", "这个时候可能", "同样", "然后", "不过这样的话", "but", "这时候可能需", "或者可能这里", "不过让我再仔",
+            "这时候", "不过可能题目", "所以答案应该", "即", "这种情况下", "计算", "那这样的话", "这里的", "题目是说", "让我再检查一", "同时", "however",
+            "没错", "好的", "不过题目中说", "题目说", "所以最终答案", "不过这可能需", "不过或许可以", "综上所述", "但这样的话", "因为", "那么", "不过这里可能", "这里可能需要"
+        ]
+    }
+}
