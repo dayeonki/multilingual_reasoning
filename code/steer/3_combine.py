@@ -1,9 +1,9 @@
 import os
-import sys
 import json
 import glob
 import random
 import argparse
+from stat_significance import run_bootstrap_analysis
 
 
 SELECTION_METRICS = [
@@ -72,7 +72,6 @@ def main():
     temps = [float(x.strip()) for x in args.temps.split(",")]
     combine_temperature_selections(args.dataset, args.model_base, temps=temps, seed=args.seed, out_subdir=args.out)
     if args.stats:
-        from stat_significance import run_bootstrap_analysis
         run_bootstrap_analysis(args.dataset, args.model_base, sel_dir=args.out, seed=args.seed)
 
 
