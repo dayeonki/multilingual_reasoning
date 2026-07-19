@@ -11,10 +11,10 @@
 <sup>1</sup>University of Maryland, <sup>2</sup>Johns Hopkins University
 <br>
 
-This repository contains the code and dataset for our paper <br> **What Makes Good Multilingual Reasoning? Disentangling Reasoning Traces with Measurable Features**.
+This repository contains the code and dataset for our COLM 2026 paper <br> **What Makes Good Multilingual Reasoning? Disentangling Reasoning Traces with Measurable Features**.
 
 <p>
-  <a href="" target="_blank" style="text-decoration:none">
+  <a href="https://arxiv.org/abs/2604.04720" target="_blank" style="text-decoration:none">
     <img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?style=flat&logo=arxiv" alt="arXiv">
   </a>
 </p>
